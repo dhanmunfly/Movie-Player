@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlayerComponent } from './player/player.component';
+import { PlaylistComponent } from './playlist/playlist.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SafeUrlPipe } from './safeurl.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlayerComponent,
+    PlaylistComponent,
+    SafeUrlPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
