@@ -23,13 +23,13 @@ a:link a:hover a:active a:visited a:hover {
   font-size: 0;
   white-space: nowrap;
   margin-top: 10px;
+  padding: 3px;
 }
 .tile {
   position: relative;
   display: inline-block;
   width: auto;
   height: auto;
-  margin-right: 10px;
   font-size: 20px;
   cursor: pointer;
   transition: 450ms all;
