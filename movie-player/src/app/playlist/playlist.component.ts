@@ -57,6 +57,7 @@ getPlayListItems() {
    */
   setUrlForPlayer(playitems){
     this.exchangedataService.sendUrl(playitems.trailer);
+    this.exchangedataService.showToastMessage(playitems.name);
   }
 
 }
