@@ -1,12 +1,13 @@
 
-<div class="player-container">
+<!-- main player section  -->
+<div class="player-container" (click)="showToastMessage();">
   <div class="items">
       <iframe  [src]="playerUrlItem | safeUrl">
       </iframe>
-
   </div>
 </div>
 
+<!-- playlist section  -->
 <div>
     <app-playlist></app-playlist>
 </div>

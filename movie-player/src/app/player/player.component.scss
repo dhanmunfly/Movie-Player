@@ -1,10 +1,10 @@
 
-$baseheight : 30rem;
+$base-height : 30rem;
 $base-width:100%;
 
 .items{
 width: $base-width;
-height: $baseheight;
+height: $base-height;
 }
 
 .player-container{
@@ -14,8 +14,7 @@ height: $baseheight;
 
 }
 
-
 iframe{
   width: $base-width;
-  height: $baseheight;
+  height: $base-height;
 }

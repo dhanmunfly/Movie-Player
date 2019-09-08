@@ -5,14 +5,15 @@
   align-content: center;
 }
 
-
+// player section
 .items-color{
 background-color: grey;
 padding: 10px;
 }
 
 
-#snackbar {
+// toast design section
+#toast {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -28,7 +29,7 @@ padding: 10px;
   font-size: 17px;
 }
 
-#snackbar.show {
+#toast.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;

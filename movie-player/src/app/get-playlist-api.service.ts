@@ -6,14 +6,14 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 })
 export class GetPlaylistFromApiService {
 
-  configUrl = 'https://api-uat.greatmanagerinstitute.com/task/getTrailerList';
-
+  // base url for getting list of trailers
+  configUrlApi = 'https://api-uat.greatmanagerinstitute.com/task/getTrailerList';
 
   constructor(private http: HttpClient) { }
 
+  // send http resquest to api using get method
   getTrailerListFromApi() {
-    const headers = new HttpHeaders({source: 'Dhananjay'});
-    return this.http.get(this.configUrl, {headers : headers});
+    return this.http.get(this.configUrlApi);
   }
 
 }
