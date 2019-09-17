@@ -102,3 +102,8 @@ a:link a:hover a:active a:visited a:hover {
 .tile:hover ~ .tile {
   transform: translate3d(125px, 0, 0);
 }
+@media only screen and (max-width: 600px) {
+  .playlist-container {
+    overflow: auto;
+  }
+}
